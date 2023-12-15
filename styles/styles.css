@@ -1,0 +1,89 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh; /* altura total = tela toda */
+    width: 100vw; /* Largura total = tela toda */ 
+    display: flex;
+    justify-content: center; /* alinhar os itens horizontalmente dentro de um container */
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwMjM3OTk0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.bigger_box {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 500px;
+}
+
+.input_city {
+    border: none;
+    outline: none; 
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 80px); 
+}
+
+.button_busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer; /* ao passarmos o mouse ele vira uma maozinha */
+    float: right; /* move o botão completamente pra direita */
+}
+
+.img_busca {
+    width: 25px;
+}
+
+.medium_box {
+    margin-top: 30px;
+}
+
+.city {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.smaller_box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img_prev {
+    height: 55px;
+}
+
+.texto_prev {
+    color:  #ffffff;
+    margin-left: 20px;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
