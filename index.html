@@ -2,40 +2,59 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links para fontes externas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;200;300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Link para arquivo de estilo externo -->
     <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+    <!-- Link para arquivo de script externo -->
     <script src="/scripts/script.js"></script>
+
+    <!-- Título da página -->
     <title>Previsão do Tempo</title>
 </head>
 
-
-<!--  Ocultar a div-->
+<!-- Corpo do documento -->
 <body>
+    <!-- Container principal -->
     <div class="bigger_box">
+        <!-- Campo de input para inserir o nome da cidade -->
         <input class="input_city" placeholder="Digite o nome da cidade:">
+
+        <!-- Botão de busca que chama a função 'clickButton()' ao ser clicado -->
         <button class="button_busca" onclick="clickButton()">
             <img class="img_busca" alt="Busca" src="https://www.svgrepo.com/show/488200/find.svg">
         </button>
 
+        <!-- Caixa média para exibir informações da cidade -->
         <div class="medium_box">
+            <!-- Título com o nome da cidade -->
             <h2 class="city">Tempo em São Paulo</h2>
 
+            <!-- Parágrafo para exibir a temperatura -->
             <p class="temp">21ºC</p>
         </div>
+
+        <!-- Caixa menor para exibir ícone do clima e descrição -->
         <div class="smaller_box">
+            <!-- Imagem do ícone do clima -->
             <img class="img_prev" alt="ícone_Info_do_Tempo" src="https://openweathermap.org/img/wn/04n.png">
+
+            <!-- Parágrafo para exibir a descrição do clima -->
             <p class="texto_prev">Nublado</p>
         </div>
+
+        <!-- Parágrafo para exibir a umidade -->
         <div>
             <p class="umidade"> Umidade: 77%</p>
         </div>
-
     </div>
 </body>
 
